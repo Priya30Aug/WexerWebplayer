@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wexer Webplayer" parallel="methods" thread-count="1">
+	<test name="Test1">
+		<classes>
+			<class
+				name="SeleniumLearning.SeleniumLearning.Chrome_webplayer" />
+
+			<class
+				name="SeleniumLearning.SeleniumLearning.Firefox_webplayer" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Wexer Webplayer]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test1(failed)">
+    <classes>
+      <class name="SeleniumLearning.SeleniumLearning.Chrome_webplayer">
+        <methods>
+          <include name="Intialise"/>
+          <include name="Login"/>
+          <include name="test"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- SeleniumLearning.SeleniumLearning.Chrome_webplayer -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Wexer Webplayer] -->

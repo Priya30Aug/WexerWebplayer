@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Wexer"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.783">
+  <properties />
+  
+  
+            <testcase name="loginwithinvaliddata" time="1.783" classname="com.wexer.webplayer.BaseSetup" />
+      
+</testsuite>

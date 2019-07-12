@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+<listeners>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+</listeners>
+
+	<parameter name="browser" value="Firefox" />
+	<test name="Wexer" thread-count="2">
+		<classes>
+			<class name="com.wexer.webplayer.BaseSetup">
+				<methods>
+				<include name="loginwithinvaliddata"/>
+					<exclude name="loginwithvaliddata"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
