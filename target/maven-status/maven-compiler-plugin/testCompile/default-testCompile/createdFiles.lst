@@ -1,0 +1,5 @@
+com\wexer\webplayer\LoginTestcases.class
+com\wexer\webplayer\BaseSetup.class
+SeleniumLearning\SeleniumLearning\Chrome_webplayer.class
+com\pom\files\LoginPOM.class
+SeleniumLearning\SeleniumLearning\Firefox_webplayer.class
